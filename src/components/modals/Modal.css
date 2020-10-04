@@ -1,0 +1,50 @@
+.ui.modal.transition.visible.active.like_modal_style {
+    max-width: 450px;
+    margin: 0 auto;
+}
+.modal_header_action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border-bottom: 1px solid lightgrey;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.modal__post__likers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.create_post_header h4 {
+    margin: 0;
+}
+.modal__user {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+.ui.page.modals.dimmer.transition.visible.active {
+    background: rgba(230, 237, 240, 0.753);
+}
+.modal__user_follow {
+    background: #0095f6;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.modal__user_unfollow {
+    background: #ccc;
+    display: inline-block;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;    
+}

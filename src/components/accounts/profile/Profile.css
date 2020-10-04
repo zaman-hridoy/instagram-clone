@@ -1,0 +1,121 @@
+.profile_image {
+    text-align: center;
+}
+.profile_image_container {
+    position: relative;
+    display: inline-block;
+}
+.profile_image_container svg {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.profile_photourl {
+    object-fit: contain;
+    border-radius: 100%;
+    width: 165px;
+}
+.profile_user_name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile_user_name h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-right: 20px;
+}
+.profile_user_name a {
+    font-weight: 600;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.post_follower_counts {
+    display: flex;
+    margin: 30px 0;
+    font-family: ui-sans-serif;
+}
+.post_follower_counts div {
+    margin-right: 20px;
+}
+.profile_user_info {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* tab */
+.profile_tab_options {
+    display: flex;
+    border-top: 1px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+.profile__tab_item {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+.profile_tab_options a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333;
+}
+a.profile__tab_item {
+    border-top: 2px solid #333;
+}
+
+/* photos */
+.profile__photos {
+    display: inline-block
+}
+img.profile_photo_image {
+    max-width: 250px;
+    object-fit: contain;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    max-height: 200px;
+    margin: 0 5px;
+}
+.profile__zoom__image__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.profile__photo__zoom {
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+    max-height: 250px;
+}
+.profile__zoom__action {
+    padding: 15px;
+}
+.profile__zoom__action h4 {
+    cursor: pointer;
+}
+.profile__zoom__action button {
+    background: transparent;
+    border: 1px solid lightgrey;
+    padding: 8px 19px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+button.follow__buton {
+    background: #0095f6;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.unfollow__buton {
+    background: #ccc;
+    border: none;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;   
+}

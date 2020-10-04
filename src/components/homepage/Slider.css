@@ -1,0 +1,46 @@
+.slick__carousel {
+    background: #fff;
+    padding: 20px 30px;
+}
+.slick__each_user {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+.slick__each_user a {
+    display: inline-block;
+}
+.slick_follow {
+    padding: 7px 20px;
+    background: #0095f6;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 800;
+}
+.slick__each_user h4 {
+    margin: 5px 0;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #ccc;
+    border: none;
+    outline: none;
+    background: #ccc;
+    border-radius: 50%;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: #ccc;
+    outline: none;
+    background: #ccc;
+}

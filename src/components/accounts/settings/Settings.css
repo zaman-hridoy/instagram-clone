@@ -1,0 +1,71 @@
+.settings__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.settings__nav {
+    border-right: 1px solid lightgrey;
+}
+.settings__options {
+    padding: 10px 20px;
+}
+.seetings_edit_profile a {
+    padding: 10px 20px;
+    color: #333;
+    display: block;
+}
+.settings_nav_selected {
+    border-left: 3px solid #333;
+    color: grey !important;
+}
+.edit_profile_onwer {
+    display: flex;
+    align-items: center;
+}
+.edit_profile_style {
+    display: flex;
+    margin: 20px 0;
+    align-items: stretch;
+}
+.form__group {
+    width: 350px;
+}
+.edit__input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.edit_profile_label {
+    width: 85px;
+}
+.form_helper_text {
+    color: grey;
+    font-size: 12px;
+    margin: 10px 0;
+    font-family: cursive;
+}
+.edit_profile_button {
+    background: #0095f6;
+    border: none;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.footer__info {
+    font-size: 14px;
+    color: grey;
+    float: right;
+    margin: 50px 5px 30px;
+}
